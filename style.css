@@ -1,14 +1,52 @@
+body{
+    background-color: white;
+    width: 1500px;
+    height: 600px;
+    border: 1px dashed black;
+}
+.website{
+    display: flex;
+}
+.product{
+    margin-top: 15px;
+    padding-left: 0px;
+}
+.about{
+    margin-top: 15px;
+    padding-left: 0px;
+}
+.account{
+    margin-top: 15px;
+    padding-left: 0px;
+}
+.cart{
+    margin-top: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.border{
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
 /* RESETS
     Here you put styles that modify the original behavior CSS/HTML had,
     for example: list elements come with a little circle that nobody uses anymore.
- */
+ 
 ul{margin: 0; padding:0;}
 ul li{list-style: none;}
 
 /* 
     BEHAVIORAL STYLES
     for example: .horizontal, .container, .p-1 (for padding one)
-*/
+
 .p-1{ padding: 10px; }
 
 
